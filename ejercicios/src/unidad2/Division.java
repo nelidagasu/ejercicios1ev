@@ -16,7 +16,7 @@ public class Division {
 		
 		resultado = 1234 / 532;
 		
-		System.out.println("El resultado de dividir 1234 entre 532 es " + resultado);
+		System.out.println("El resultado de dividir 1234 entre 532 es " + String.format("%.2f", resultado));
 
 	}
 
